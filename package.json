@@ -1,0 +1,17 @@
+{
+    "name": "json_server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "stop": "lsof -ti :3004 | xargs kill"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "faker": "^4.1.0",
+        "json-server": "^0.15.1"
+    }
+}
