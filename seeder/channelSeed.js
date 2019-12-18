@@ -1,10 +1,10 @@
 const low = require("lowdb");
 const faker = require("faker");
 const _ = require("lodash");
-const helper = require("./helper");
+const helper = require("../helper");
 const FileSync = require("lowdb/adapters/FileSync");
 
-const adapter = new FileSync("db.json");
+const adapter = new FileSync("../db.json");
 const db = low(adapter);
 // Set some defaults
 const ppvArr = ["Boxing Match Rule", "OlympicGames", "1 Day Access"];
