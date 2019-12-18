@@ -9,5 +9,6 @@ const router = require("express").Router();
 
 // api
 router.use("/groups", require("./group"));
+router.use("/channels", require("./channel"));
 
 module.exports = router;

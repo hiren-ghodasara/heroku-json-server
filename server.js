@@ -1,5 +1,6 @@
 // server.js
 const jsonServer = require("json-server");
+const express = require("express");
 const server = jsonServer.create();
 const middlewares = jsonServer.defaults();
 const path = require("path");
@@ -7,6 +8,10 @@ const fs = require('fs');
 const router = jsonServer.router(path.join(__dirname, "db.json"));
 
 server.use(middlewares);
+
+server.use(express.json()) // for parsing application/json
+server.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+
 server.get("/test", (req, res) => {
   res.status(200).send({
     text: "Hello!"

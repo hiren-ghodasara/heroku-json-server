@@ -635,422 +635,6 @@
       "next_channe_id": "5df9f20bbe66dde0f880a693"
     },
     {
-      "id": "5df9f20ba532a88315013578",
-      "number": 18562,
-      "name": "Principal Program Administrator",
-      "use_transcoder": true,
-      "use_playlist": false,
-      "epg": {
-        "name": "Kristopher Hand",
-        "description": "Wunsch",
-        "end": "2019-02-11T18:04:53.055Z",
-        "start": "2019-08-13T14:02:53.545Z",
-        "image": "https://s3.amazonaws.com/uifaces/faces/twitter/j04ntoh/128.jpg",
-        "offset": 3,
-        "url": "https://wilber.org"
-      },
-      "is_ppv": false,
-      "ppv_name": "1 Day Access",
-      "transcoders": {
-        "type": "DVEO Hardware",
-        "name": "Mouse",
-        "source": false,
-        "use_interactive_tv": true,
-        "dvr": "drv 2",
-        "output_type": "DASH 1",
-        "cdn_hostname": "cdn 2",
-        "use_security": false,
-        "drm": false
-      },
-      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/danvierich/128.jpg",
-      "is_kids_friendly": false,
-      "overlay_enabled": false,
-      "ticker_enabled": true,
-      "preroll_enabled": true,
-      "fingerprint": false,
-      "childlock": true,
-      "show_on_home": true,
-      "currencies": [
-        {
-          "id": "5df9f20b807cb5845e0cefd3",
-          "name": "KMF",
-          "amount": 3894,
-          "credits": 2591
-        },
-        {
-          "id": "5df9f20bc6a523d456297cda",
-          "name": "XDR",
-          "amount": 2815,
-          "credits": 2036
-        },
-        {
-          "id": "5df9f20b5418398811c9a387",
-          "name": "GIP",
-          "amount": 4354,
-          "credits": 1679
-        },
-        {
-          "id": "5df9f20b1038cd94e7415869",
-          "name": "PHP",
-          "amount": 241,
-          "credits": 2008
-        },
-        {
-          "id": "5df9f20b22545721433a7181",
-          "name": "PGK",
-          "amount": 4545,
-          "credits": 1549
-        },
-        {
-          "id": "5df9f20b12c3fb7cf014c96f",
-          "name": "CDF",
-          "amount": 20,
-          "credits": 2992
-        },
-        {
-          "id": "5df9f20b5a65ba5d6b89d5a7",
-          "name": "GEL",
-          "amount": 1341,
-          "credits": 795
-        },
-        {
-          "id": "5df9f20b9b35ffab85a6788e",
-          "name": "XPT",
-          "amount": 4585,
-          "credits": 1342
-        },
-        {
-          "id": "5df9f20bf0f4876a11d005fd",
-          "name": "SLL",
-          "amount": 4259,
-          "credits": 1915
-        },
-        {
-          "id": "5df9f20b991e254fd89982a8",
-          "name": "XCD",
-          "amount": 3505,
-          "credits": 2885
-        },
-        {
-          "id": "5df9f20b3b2bafd6908e0de8",
-          "name": "SVC USD",
-          "amount": 1586,
-          "credits": 2617
-        },
-        {
-          "id": "5df9f20b6f16e92220efcfdb",
-          "name": "MUR",
-          "amount": 3795,
-          "credits": 2087
-        },
-        {
-          "id": "5df9f20b92444a57558b0bc3",
-          "name": "BAM",
-          "amount": 186,
-          "credits": 1164
-        },
-        {
-          "id": "5df9f20b4a820875661ce216",
-          "name": "SVC USD",
-          "amount": 4326,
-          "credits": 2717
-        },
-        {
-          "id": "5df9f20b7586084267a9cad0",
-          "name": "KMF",
-          "amount": 2313,
-          "credits": 2051
-        },
-        {
-          "id": "5df9f20b7a5883db8c073ea8",
-          "name": "COP COU",
-          "amount": 194,
-          "credits": 2036
-        },
-        {
-          "id": "5df9f20be194f04b447c2057",
-          "name": "CAD",
-          "amount": 3180,
-          "credits": 1904
-        },
-        {
-          "id": "5df9f20bb6b5a6dc3bef43a1",
-          "name": "XBB",
-          "amount": 466,
-          "credits": 1141
-        },
-        {
-          "id": "5df9f20b6f69d2eb00003765",
-          "name": "BSD",
-          "amount": 16,
-          "credits": 206
-        },
-        {
-          "id": "5df9f20b27a58071300cdf10",
-          "name": "MVR",
-          "amount": 4809,
-          "credits": 1035
-        },
-        {
-          "id": "5df9f20be639e8a2cd59195c",
-          "name": "RUB",
-          "amount": 2175,
-          "credits": 1686
-        },
-        {
-          "id": "5df9f20be1ac464bf478d6cd",
-          "name": "BND",
-          "amount": 3689,
-          "credits": 1225
-        },
-        {
-          "id": "5df9f20bda75fecf0c1d80c7",
-          "name": "USD",
-          "amount": 1690,
-          "credits": 2700
-        },
-        {
-          "id": "5df9f20b14fa2630cafa1f03",
-          "name": "NGN",
-          "amount": 4035,
-          "credits": 1261
-        },
-        {
-          "id": "5df9f20b1ef551091de55a1b",
-          "name": "CLP CLF",
-          "amount": 1756,
-          "credits": 629
-        },
-        {
-          "id": "5df9f20b23c321eee3291e9c",
-          "name": "MXN MXV",
-          "amount": 4881,
-          "credits": 2804
-        }
-      ],
-      "groups": [
-        "5df8da4a39c57e9a4a053ae6",
-        "5df8da4a85296064fc9527f4",
-        "5df8da4a88e89de22796e7df"
-      ],
-      "pakages": [
-        "5df9f0b7077392b382c09e83",
-        "5df9f0b715b9cc277677c538"
-      ],
-      "createdAt": "2019-12-18T09:31:55.751Z",
-      "updatedAt": "2019-12-18T09:31:55.751Z",
-      "previous_channe_id": "5df9f20bdd550e8245baf405",
-      "next_channe_id": "5df9f20bdd67ac081dea48ea"
-    },
-    {
-      "id": "5df9f20b5952206af27fc80a",
-      "number": 61286,
-      "name": "Principal Accountability Assistant",
-      "use_transcoder": true,
-      "use_playlist": false,
-      "epg": {
-        "name": "Alexandre Bashirian",
-        "description": "Parker",
-        "end": "2014-01-24T03:55:13.376Z",
-        "start": "2018-12-10T06:11:41.501Z",
-        "image": "https://s3.amazonaws.com/uifaces/faces/twitter/ecommerceil/128.jpg",
-        "offset": 1,
-        "url": "http://alexa.net"
-      },
-      "is_ppv": true,
-      "ppv_name": "Boxing Match Rule",
-      "transcoders": {
-        "type": "DVEO Hardware",
-        "name": "Profit-focused",
-        "source": false,
-        "use_interactive_tv": false,
-        "dvr": "drv 1",
-        "output_type": "DASH 3",
-        "cdn_hostname": "cdn 2",
-        "use_security": false,
-        "drm": true
-      },
-      "image": "https://s3.amazonaws.com/uifaces/faces/twitter/michaelcomiskey/128.jpg",
-      "is_kids_friendly": true,
-      "overlay_enabled": true,
-      "ticker_enabled": false,
-      "preroll_enabled": true,
-      "fingerprint": true,
-      "childlock": false,
-      "show_on_home": true,
-      "currencies": [
-        {
-          "id": "5df9f20b16cfbf3b6cd76fa7",
-          "name": "TWD",
-          "amount": 3927,
-          "credits": 1406
-        },
-        {
-          "id": "5df9f20b6ebe8796c7e66ace",
-          "name": "AED",
-          "amount": 3893,
-          "credits": 2106
-        },
-        {
-          "id": "5df9f20b949830d676b5fd78",
-          "name": "KRW",
-          "amount": 768,
-          "credits": 2889
-        },
-        {
-          "id": "5df9f20be24349784d8171f3",
-          "name": "RSD",
-          "amount": 3171,
-          "credits": 2070
-        },
-        {
-          "id": "5df9f20b1302b19b425bbd04",
-          "name": "NGN",
-          "amount": 2649,
-          "credits": 227
-        },
-        {
-          "id": "5df9f20bf5f2d98deaeb638e",
-          "name": "EEK",
-          "amount": 4509,
-          "credits": 1057
-        },
-        {
-          "id": "5df9f20be655be80c5d5d7e7",
-          "name": "XPF",
-          "amount": 3279,
-          "credits": 325
-        },
-        {
-          "id": "5df9f20bd92bdc0685db8cbf",
-          "name": "JMD",
-          "amount": 667,
-          "credits": 251
-        },
-        {
-          "id": "5df9f20b5a924420c74bfcf3",
-          "name": "GIP",
-          "amount": 2784,
-          "credits": 1713
-        },
-        {
-          "id": "5df9f20be9b9b3e5cc5e03ca",
-          "name": "KYD",
-          "amount": 3912,
-          "credits": 1184
-        },
-        {
-          "id": "5df9f20b4987924d1af20073",
-          "name": "SBD",
-          "amount": 2746,
-          "credits": 2262
-        },
-        {
-          "id": "5df9f20b78c606168eebf916",
-          "name": "MUR",
-          "amount": 4021,
-          "credits": 628
-        },
-        {
-          "id": "5df9f20b7527b146cc8537fe",
-          "name": "TOP",
-          "amount": 851,
-          "credits": 2098
-        },
-        {
-          "id": "5df9f20bcbf588d6b783da09",
-          "name": "MAD",
-          "amount": 602,
-          "credits": 2156
-        },
-        {
-          "id": "5df9f20b6dc591e47da9533c",
-          "name": "SRD",
-          "amount": 4350,
-          "credits": 1845
-        },
-        {
-          "id": "5df9f20bf3e46127d72c93ed",
-          "name": "PEN",
-          "amount": 3045,
-          "credits": 606
-        },
-        {
-          "id": "5df9f20ba365c6acc07fae6e",
-          "name": "TMT",
-          "amount": 91,
-          "credits": 1834
-        },
-        {
-          "id": "5df9f20b6739a1de075464cf",
-          "name": "MZN",
-          "amount": 3424,
-          "credits": 396
-        },
-        {
-          "id": "5df9f20beec25065b6617dee",
-          "name": "AFN",
-          "amount": 4822,
-          "credits": 1238
-        },
-        {
-          "id": "5df9f20b2ec4d78482d4ec35",
-          "name": "BDT",
-          "amount": 3585,
-          "credits": 1616
-        },
-        {
-          "id": "5df9f20bf52622f6aa9af2fa",
-          "name": "AED",
-          "amount": 4898,
-          "credits": 1213
-        },
-        {
-          "id": "5df9f20ba9d344e091a6071c",
-          "name": "CNY",
-          "amount": 3940,
-          "credits": 1196
-        },
-        {
-          "id": "5df9f20b776a9eb720ca9b63",
-          "name": "MVR",
-          "amount": 1297,
-          "credits": 110
-        },
-        {
-          "id": "5df9f20b694e541f068feca6",
-          "name": "BGN",
-          "amount": 1542,
-          "credits": 1349
-        },
-        {
-          "id": "5df9f20b8734ac33c0100fa1",
-          "name": "BZD",
-          "amount": 4696,
-          "credits": 1165
-        },
-        {
-          "id": "5df9f20bfee943ed38f77d88",
-          "name": "STD",
-          "amount": 4021,
-          "credits": 968
-        }
-      ],
-      "groups": [
-        "5df8da4ad0486622d6e57f10",
-        "5df8da4aebb2a0bd71e31844",
-        "5df8da4a163562cd231d7028"
-      ],
-      "pakages": [
-        "5df9f0b7077392b382c09e83",
-        "5df9f0b7d5a6aee92a701568"
-      ],
-      "createdAt": "2019-12-18T09:31:55.753Z",
-      "updatedAt": "2019-12-18T09:31:55.753Z",
-      "previous_channe_id": "5df9f20b371df1130feed7db",
-      "next_channe_id": "5df9f20ba532a88315013578"
-    },
-    {
       "id": "5df9f20be1193c4627d71962",
       "number": 93222,
       "name": "Future Metrics Consultant",
@@ -9789,89 +9373,98 @@
   ],
   "groups": [
     {
-      "id": "5df8da4a163562cd231d7028",
-      "position": 1,
-      "name": "transmitting"
-    },
-    {
-      "id": "5df8da4a39c57e9a4a053ae6",
-      "position": 2,
-      "name": "SSL"
-    },
-    {
-      "id": "5df8da4ac4f0597eaf16d3ee",
+      "id": "5dfa2decebbe63f377bec1d2",
       "position": 3,
-      "name": "withdrawal"
+      "name": "Versatile",
+      "preposition": 2
     },
     {
-      "id": "5df8da4aebb2a0bd71e31844",
-      "position": 4,
-      "name": "Personal Loan Account"
+      "id": "5dfa2dec10790f2527b22b86",
+      "position": 1,
+      "name": "Quality",
+      "preposition": 2
     },
     {
-      "id": "5df8da4a4ed8249178f7d026",
-      "position": 5,
-      "name": "Berkshire"
-    },
-    {
-      "id": "5df8da4a74acf19aa02b445c",
-      "position": 6,
-      "name": "sky blue"
-    },
-    {
-      "id": "5df8da4a88e89de22796e7df",
-      "position": 7,
-      "name": "deposit"
-    },
-    {
-      "id": "5df8da4a4f2522ede3fcf9d0",
-      "position": 8,
-      "name": "Gorgeous Soft Shirt"
-    },
-    {
-      "id": "5df8da4abb38793f1a197666",
+      "id": "5dfa2decc9eb24c7ca432e0a",
       "position": 9,
-      "name": "Singapore"
+      "name": "generating",
+      "preposition": 8
     },
     {
-      "id": "5df8da4a7ea6ad11d71700c6",
+      "id": "5dfa2dec314516713135b3ee",
+      "position": 4,
+      "name": "hacking",
+      "preposition": 3
+    },
+    {
+      "id": "5dfa2dec53cd569b7340ce45",
+      "position": 5,
+      "name": "Program",
+      "preposition": 4
+    },
+    {
+      "id": "5dfa2decf02ff364dedc220c",
+      "position": 6,
+      "name": "high-level",
+      "preposition": 5
+    },
+    {
+      "id": "5dfa2decb565b4356dd0d649",
+      "position": 7,
+      "name": "Avon",
+      "preposition": 6
+    },
+    {
+      "id": "5dfa2dec2d9f78f060f8d184",
+      "position": 8,
+      "name": "invoice",
+      "preposition": 7
+    },
+    {
+      "id": "5dfa2dec9ebe449e00ba5d81",
+      "position": 2,
+      "name": "digital",
+      "preposition": 9
+    },
+    {
+      "id": "5dfa2dec93204bb17fabca71",
       "position": 10,
-      "name": "parse"
+      "name": "Auto Loan Account"
     },
     {
-      "id": "5df8da4a9953f1ad6cd7d660",
+      "id": "5dfa2dec3a1f9fb6c5fbfd67",
       "position": 11,
-      "name": "Movies"
+      "name": "Research"
     },
     {
-      "id": "5df8da4ad0486622d6e57f10",
+      "id": "5dfa2decf61f9634edd34ede",
       "position": 12,
-      "name": "Afghani"
+      "name": "Fantastic"
     },
     {
-      "id": "5df8da4a85296064fc9527f4",
+      "id": "5dfa2dec14ed141817d2c38d",
       "position": 13,
-      "name": "navigating"
+      "name": "French Guiana"
     },
     {
-      "id": "5df8da4af6aeefe22b2f78b3",
+      "id": "5dfa2dec4735c6642d80f81d",
       "position": 14,
-      "name": "Cambridgeshire"
+      "name": "Music"
     },
     {
-      "id": "5df8da4accd9504cb65d93dd",
+      "id": "5dfa2decf9d55cac1e1753fd",
       "position": 15,
-      "name": "Gorgeous"
+      "name": "mobile"
     },
     {
-      "id": "5df8da4abe82769665229ae2",
+      "id": "5dfa2deccfdf54ae9d6ab41f",
       "position": 16,
-      "name": "Rustic Cotton Cheese"
+      "name": "matrix"
     },
     {
-      "id": "5df8da4a3387cdf776df62d7",
+      "id": "5dfa2dec822b219b3844be81",
       "position": 17,
-      "name": "bricks-and-clicks"
+      "name": "Producer"
     }
   ],
   "pakages": [
