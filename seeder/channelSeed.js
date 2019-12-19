@@ -11,7 +11,7 @@ const ppvArr = ["Boxing Match Rule", "OlympicGames", "1 Day Access"];
 const transcoderTypeArr = ["FLS Software", "DVEO Hardware", "Mware CloudTV"];
 const outputTypeArr = ["DASH 1", "DASH 2", "DASH 3"];
 const drvArr = ["drv 1", "drv 2", "drv 3"];
-const cdnHoscdnHostArrtArr = ["cdn 1", "cdn 2", "cdn 3"];
+const cdnHostArr = ["cdn 1", "cdn 2", "cdn 3"];
 
 (async () => {
   db.defaults({ channels: [] }).write();
@@ -74,7 +74,8 @@ const cdnHoscdnHostArrtArr = ["cdn 1", "cdn 2", "cdn 3"];
           use_security: faker.random.boolean(),
           drm: faker.random.boolean()
         },
-        image: faker.image.avatar(),
+        image: faker.image.nature(),
+        image: `https://picsum.photos/id/${faker.random.number({min:1, max:100})}/400/400`,
         //
         is_kids_friendly: faker.random.boolean(),
         //
