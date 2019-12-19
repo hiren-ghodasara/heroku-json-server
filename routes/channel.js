@@ -34,7 +34,9 @@ router.get("/get-channel-by-group/:group_id", (req, res, next) => {
       return _.includes(v.groups, group_id);
     })
     .value();
-
+  res.setHeader("X-Total-Count", groups.length);
+  //res.setHeader("X-Total-Count", chain.size());
+  res.setHeader("Access-Control-Expose-Headers", `X-Total-Count`);
   res.status(200).send(groups);
 });
 
