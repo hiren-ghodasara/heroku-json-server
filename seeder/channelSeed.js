@@ -11,7 +11,7 @@ const ppvArr = ["Boxing Match Rule", "OlympicGames", "1 Day Access"];
 const transcoderTypeArr = ["FLS Software", "DVEO Hardware", "Mware CloudTV"];
 const outputTypeArr = ["DASH 1", "DASH 2", "DASH 3"];
 const drvArr = ["drv 1", "drv 2", "drv 3"];
-const cdnHostArr = ["cdn 1", "cdn 2", "cdn 3"];
+const cdnHoscdnHostArrtArr = ["cdn 1", "cdn 2", "cdn 3"];
 
 (async () => {
   db.defaults({ channels: [] }).write();
@@ -30,19 +30,14 @@ const cdnHostArr = ["cdn 1", "cdn 2", "cdn 3"];
     .map("id")
     .value();
 
+  const currencies = db
+    .get("currencies")
+    .map("id")
+    .value();
+
   // console.log("groups", _.take(_.shuffle(groups), 5));
   // return;
   for (let i = 1; i <= 47; i++) {
-    let currenciesData = [];
-    for (let ii = 1; ii <= 26; ii++) {
-      currenciesData.push({
-        id: helper.mongoObjectId(),
-        name: faker.finance.currencyCode(),
-        amount: faker.random.number(5000),
-        credits: faker.random.number(3000)
-      });
-    }
-
     db.get("channels")
       .push({
         id: helper.mongoObjectId(),
@@ -90,8 +85,7 @@ const cdnHostArr = ["cdn 1", "cdn 2", "cdn 3"];
         childlock: faker.random.boolean(),
         show_on_home: faker.random.boolean(),
         //
-        currencies: currenciesData,
-        //
+        currencies: _.take(_.shuffle(currencies), 26),
         groups: _.take(_.shuffle(groups), 3),
         pakages: _.take(_.shuffle(pakages), 2),
         //
