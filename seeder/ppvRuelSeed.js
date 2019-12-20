@@ -18,6 +18,7 @@ for (let i = 1; i <= 22; i++) {
     .push({
       id: helper.mongoObjectId(),
       name: faker.random.word(),
+      quantity: faker.random.number(10),
       type: faker.random.arrayElement(typeArr)
     })
     .write();
